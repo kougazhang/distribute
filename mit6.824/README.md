@@ -14,6 +14,7 @@
 + [如何的才能更好地学习 MIT6.824 分布式系统课程？](https://www.zhihu.com/question/29597104/answer/1452914306)
 + 书籍: 数据密集型应用系统设计
 + [MIT6.824分布式系统课程中文翻译](https://zhuanlan.zhihu.com/c_1273718607160393728)
+  + 这个笔记并不是和课程一一对应的.
 + 笔记: [国外计算机课程记录](https://www.zhihu.com/column/c_1215252429765218304)
 + 谷歌, Github 和知乎搜: 6.824
 + [MIT-6.824](https://github.com/chaozh/MIT-6.824): 提炼了非常多的要点
