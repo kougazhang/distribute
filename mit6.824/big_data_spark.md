@@ -5,9 +5,7 @@
   + [FAQ](https://pdos.csail.mit.edu/6.824/papers/spark-faq.txt)
   + [Question](https://pdos.csail.mit.edu/6.824/questions.html?q=q-spark&lec=16)
 
-# 笔记
-
-## FAQ
+## 关于 FAQ 的笔记
 
 1. RDD 的思想有在其他系统上的实现?
 
