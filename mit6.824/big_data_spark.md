@@ -36,6 +36,20 @@ RDD 的位置信息保存在它的元数据部分. sheduler 就是用这部分�
 
 因为 transform 等操作会产生新的 RDD. 并且 RDD 的运算是 lazy 的, 一般情况下 transform 等操作只是会形成的新的数据血缘图, RDD 并不会真正去进行计算.
 
+## gopark 源码笔记
+
+[gopark](https://github.com/mijia/gopark)
+
+由于这个项目开发时间较早(8年前), 所以我对该项目进行了调整, 方便在 Goland 编辑器下查看: 我 fork 的分支 [gopark](https://github.com/kougazhang/gopark)
+
+gopark 这个项目实现了单机版的 Spark, 实现了 RDDs 和 scheduler 部分.
+
+init 部分会对 input 的数据按照并发度切分. (即 Split 的相关实现)
+
+RDDs 使用了双向链表来确认数据的血缘关系 ??
+
+
+
 
 
 
